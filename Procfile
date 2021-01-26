@@ -1,1 +1,1 @@
-web: gunicorn shopchart.wsgi --log-file -
+web: gunicorn shopchart.wsgi --log-file
