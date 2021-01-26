@@ -1,0 +1,1 @@
+web: gunicorn shopchart.wsgi.application --log-file -

@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+html{
+  height: 100%;
+}
+
+
+body {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+
+ .parallax-container .section {
+     width: 100%;
+   }
+
+  .contactus-box{
+    align-self: center;
+    max-width: 400px;
+    height: auto;
+    background: palegoldenrod;
+    border: 15px solid palegoldenrod;
+    padding: 25px;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .shadow-box1{
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+  }  
+ 
+  @media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+} 
+
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+
+
+footer .page-footer {
+   margin-top: 50px; 
+ }
+
